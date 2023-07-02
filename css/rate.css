@@ -1,0 +1,54 @@
+.buy-text{
+    text-align: center;
+    padding-top: 115px;
+}
+.buy{
+    background-color: rgb(132,140,47);
+    height: 1000px;
+}
+.rate-text {
+    font-size: 60px;
+    color: white;
+}
+.buy-info {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+.text-centure {
+    text-align: center;
+}
+.buy-hover:hover {
+    background-color: rgb(113,120,36);
+    height: 600px;
+    border-radius:30px ;
+    -ms-transition: all .3s ease;
+    transition: all .3s ease;
+}
+
+.buy-hover{
+    padding-top: 45px;
+}
+.line {
+    position: relative;
+    height: 0;
+    border-bottom: 3px dashed #eee;
+    left: auto;
+    right: auto;
+    bottom: -0.95em;
+    display: block;
+    margin: 0 auto;
+    width: 36px;
+    content: "";
+    color: rgb(84,91,19);
+}
+
+.item{
+    transition: transform 0.7s;
+    transform: translateY(0.1in);
+}
+.item:hover{
+    transition: transform 0.7s;
+    transform: translateY(-0.1in);
+    border-radius: 30px;
+}

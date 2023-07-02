@@ -1,0 +1,38 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: rgb(165,149,140);
+    text-align: center;
+    padding: 30px 17px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    color: rgb(66,44,24);
+  }
+  
+  .active {
+    color:rgb(66,44,24);
+  }
+  .logo {
+    padding-left: 20px;
+  }
+  .page {
+    padding-top: 30px;
+    padding-left: 600px;
+}
+.login {
+  padding-top: 10px;
+  padding-left: 1250px;
+}

@@ -1,0 +1,93 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.wrapper-container {
+    padding: 50px 100px;
+}
+
+.count-down {
+    background-color: rgb(252,192,68);
+}
+.count-down-num {
+    background-color: rgb(238,173,46);
+    width: 170px;
+    height: 200px;
+    border-radius: 20px;
+    margin-right:10px;
+}
+.count-down-num1{
+    padding-top: 52px;
+}
+
+.bnn {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    width: 700px;
+    justify-content: space-between;
+}
+.sss{
+    margin-right:200px;
+}
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: rgb(224,93,72);
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 10px;
+    height: 50px;
+    width: 50px;
+  }
+  .wcu-text-1{
+    border-radius: 20px;
+  }
+  .f-num{
+    background-color: #fcc044;
+    color: #ffffff;
+    font-size: 1.125em;
+    font-weight: 700;
+    width: 51px;
+    height: 51px;
+    line-height: 51px;
+    text-align: center;
+    margin-top: 5px;
+    -webkit-border-radius: 50%;
+    -ms-border-radius: 50%;
+    border-radius: 50%;
+  }
+  .font-grandhotel{
+    font-family: 'Grand Hotel', cursive;
+}
+.font-a{
+    font-family: "Aleo variant0", Tofu;
+}
+.font-lg{
+    font-family: "Luckiest Guy", cursive;
+}
+.font-tnr {
+    font-family: 'Times New Roman', Times, serif;
+}
+.color-1 {
+    color:white;
+}
+.color-2{
+    color:rgb(211,144,19);
+}
+.color-3 
+{
+    color:rgb(221,84,73);
+}
+.color-4 {
+    color:rgb(66,44,24);
+}

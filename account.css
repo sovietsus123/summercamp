@@ -1,0 +1,47 @@
+body{
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.wrapper1{
+  max-width: 30em; 
+  background-color: rgba(0, 0, 0, 0.63);
+  color: aliceblue;
+  box-shadow: 0 0 5px rgb(106, 240, 240),
+  0 0 25px rgb(106, 240, 240),
+  0 0 50px rgb(106, 240, 240),
+  0 0 100px rgb(106, 240, 240);
+
+  margin: auto;
+}
+
+.wrapper2{
+  max-width: 30em; 
+  background-color: rgba(0, 0, 0, 0.63);
+  color: aliceblue;
+  box-shadow: 0 0 5px rgb(210, 223, 223),
+  0 0 25px rgb(210, 223, 223),
+  0 0 50px rgb(210, 223, 223),
+  0 0 100px rgb(210, 223, 223);
+  margin: auto;
+}
+
+.btn1:hover{
+  box-shadow: 0 0 5px rgb(106, 240, 240),
+  0 0 25px rgb(106, 240, 240),
+  0 0 50px rgb(106, 240, 240),
+  0 0 100px rgb(106, 240, 240);
+}
+
+.btn2:hover{
+  box-shadow: 0 0 5px rgb(210, 223, 223),
+  0 0 25px rgb(210, 223, 223),
+  0 0 50px rgb(210, 223, 223),
+  0 0 100px rgb(210, 223, 223);
+}
+
+
